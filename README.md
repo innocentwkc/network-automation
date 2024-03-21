@@ -2,6 +2,10 @@
 
 These are the docs, to edit README later
 
+## Setup
+
+Create environment variable file named `.env` Template in the Templates directory
+
 ## Data
 
 ### Config files
