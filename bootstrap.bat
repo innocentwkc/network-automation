@@ -1,0 +1,1 @@
+@REM Create .env file in root folder
