@@ -21,8 +21,8 @@ Create environment variable file named `.env` Template in the Templates director
 from ip_generator import generate_ip_list
 
 # Define the subnet and the starting IP address.
-subnet = '172.18.209.0/25'
-start_address = '172.18.209.2'  # Exclude the first IP, typically reserved for a core switch or router.
+subnet = '192.168.10.0/25'
+start_address = '192.168.10.2'  # Exclude the first IP, typically reserved for a core switch or router.
 
 # Generate the list of IP addresses starting from the specified address in the subnet.
 ip_list = generate_ip_list(subnet, start_address)
